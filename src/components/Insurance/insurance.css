@@ -1,0 +1,193 @@
+.insurance-con{
+    border: 1px solid black;
+    padding: 1rem 2rem;
+}
+
+.claim-side-head h1 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1e0c60;
+    display: inline-block; /* Added property */
+    border-bottom: 1px solid #1e0c60; /* Border at the bottom of h1 */
+  }
+.claim-head p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem 0rem;
+}
+.claim-side-head p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem 0rem;
+}
+
+/* how claims */
+.claim-process{
+    /* border: 1px solid black; */
+    padding: 4rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    
+}
+.claim-sub {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 35%;
+    box-shadow: 6px -2px 23.5px 0px #00000040, 3px 4px 17.1px 0px #00000040; /* Combined box shadows */
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden; /* Clip content to container's border-radius */
+  }
+  .claim-sub-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .claim-sub p {
+    padding:  0rem 2rem;
+    margin: 0; /* Reset default margin to avoid unwanted space */
+    text-align: center;
+  }
+  
+.claim-sub img{
+    width: 9rem;
+    height: 7rem;
+    /* border: 1px solid black; */
+   
+}
+
+/* cash-less-claim */
+.cash-less-claim{
+    padding:1rem 2rem;
+    padding-bottom: 2rem;
+}
+.cash-less-claim li{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* reimbursement-claim */
+.reimbursement-claim{
+    padding:1rem 2rem;
+}
+.reimbursement-claim li{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* insurance-claim-without */
+.insurance-claim-without{
+    /* border: 1px solid black; */
+    padding: 1rem rem;
+    height: auto;
+
+}
+.insurance-claim-without h1{
+    font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #1e0c60;
+}
+.claim-side-head-claim h1{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1e0c60;
+    display: inline-block; /* Added property */
+    border-bottom: 1px solid #1e0c60; /* Border at the bottom of h1 */
+}
+.claim-sections{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2.5rem 0rem;
+}
+.claim-sections div{
+   
+    box-shadow: 6px -2px 23.5px 0px #00000040;
+
+box-shadow: 3px 4px 17.100000381469727px 0px #00000040;
+
+}
+.claim{
+    height: 17rem;
+}
+.without-claim{
+    height: 17rem;
+}
+.note-claim{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: bold;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #1e0c60;
+
+}
+.claim-sections div p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem;
+
+}
+/* claimbutton */
+.claim-button {
+    position: fixed;
+    bottom: 30px; /* Distance from the bottom */
+    right: 30px; /* Distance from the right */
+    
+  }
+  
+.claim-button button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #1e0c60;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+.claim-button button:hover{
+    cursor: pointer;
+}
